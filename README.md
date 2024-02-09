@@ -29,13 +29,21 @@
 4. Открыть ее.
 5. Нажать на кнопку запуска
 
-Выбрать интересующий вид сортировки в одном из всплывающих списков:
+В программе есть DataGridView для выбора нужного документа:
 
-![](https://github.com/tyapckindan/Sort/assets/117898240/699c3b2b-d088-410a-a48b-50e2c4708577)
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B51.png)
 
-Итог этого:
+Все данные выбранного документа выводятся в поля:
 
-![](https://github.com/tyapckindan/Sort/assets/117898240/61077820-3fd8-45ff-b011-591b684dadda)
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B52.png)
+
+Для добавления, редактирования или удаления документа в приложении есть соответствующие кнопки:
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B53.png)
+
+В приложении реализован поиск документа по ID:
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B54.png)
 
 Разработка
 -------
@@ -44,50 +52,46 @@
 
 Тестирование
 -------
-В проекте использовались следующие виды тестирования: Интеграционное
+В проекте использовались следующие виды тестирования: Модульное, Интеграционное
 
 Итоги тестирования:
 
+### Модульное тестирование
+
+Тест-кейсы
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%811.png)
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%812.png)
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%813.png)
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%814.png)
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%815.png)
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%816.png)
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%817.png)
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%818.png)
+
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%818.png)
+
 ### Интеграционное тестирование
 
-Граф программы:
 
-![](https://github.com/tyapckindan/Sort/assets/117898240/68ae8948-453d-4dbd-9a1b-ac4abf414e6b)
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%93%D1%80%D0%B0%D1%84.png)
 
-### Тестовые пути
-
-Т1: 1 – 2 – 5.
-
-Т2: 1 – 3 – 5.
-
-Т3: 1 – 4 – 5.
-
-Т4: 1 – 2 – 3 – 4 – 5.
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%BF%D0%BE%D1%8F%D1%81%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20%D0%B3%D1%80%D0%B0%D1%84%D1%83.png)
 
 ### Пути
 
-Путь 1: Отображение данных при выборе в всплывающем списке «Основные виды сортировки», закрытие приложения.
-
-Путь 2: Отображение данных при выборе во втором всплывающем списке «Пример реализации» , закрытие приложения.
-
-Путь 3: Отображение данных при выборе в третьем всплывающем списке «Справка» , закрытие приложения.
-
-Путь 4: Отображение данных при выборе в всплывающем списке «Основные виды сортировки», отображение данных при выборе в всплывающем списке «Пример реализации», отображение данных при выборе в всплывающем списке «Справка», закрытие приложения.
-
-### Тест-кейсы
-
-Таблица 1. Тест-кейс вывода информации выбранного элемента из списка «Основные виды сортировки»
-![image](https://github.com/tyapckindan/Sort/assets/117898240/cbf362a1-4fbd-434b-be8f-9440fc456462)
-
-Таблица 2. Тест-кейс вывода информации выбранного элемента из списка «Примеры реализации»
-![image](https://github.com/tyapckindan/Sort/assets/117898240/11332c40-f407-4df1-b948-353ce4656ecc)
-
-Таблица 3. Тест-кейс вывода информации выбранного элемента из списка «Справка»
-![image](https://github.com/tyapckindan/Sort/assets/117898240/28815b12-ce9d-4ca1-ad2e-fe7b0afae622)
+![](https://github.com/Ytka2235/documents/blob/master/documents/File/%D0%BF%D1%83%D1%82%D0%B8.png)
 
 Contributing
 -------
-Сообщения о багах и ошибках присылать на почту: danila.tyapkin.04@mail.ru
+Сообщения о багах и ошибках присылать на почту: ytka2235@gmail.ru
 
 FAQ
 -------
